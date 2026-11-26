@@ -132,7 +132,7 @@ python -m pytest -q
 | `test_ab_assignment_balanced_and_deterministic` | A/B split is ~50/50 and repeatable |
 | `test_ab_compare_significance` | a real difference is reported as significant, equal results are not |
 
-CI (`.github/workflows/tests.yml`) runs the tests and the demo on Python 3.9 and 3.12.
+CI (`.github/workflows/tests.yml`) runs the tests and the demo on Python 3.11 and 3.13.
 
 ## Use cases
 For apps **you own or are authorised to test**:
